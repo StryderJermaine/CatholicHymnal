@@ -1,0 +1,537 @@
+﻿<Page
+    x:Class="CatholicHymnBookUWP.Views.StationsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CatholicHymnBookUWP.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    
+    mc:Ignorable="d">
+
+    <Page.Transitions>
+        <TransitionCollection>
+            <NavigationThemeTransition />
+        </TransitionCollection>
+    </Page.Transitions>
+
+    <!-- Content -->
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Pivot>
+            <PivotItem Header="Prayer of Preparation">
+                <Grid>
+                    <ScrollViewer>
+                        <StackPanel>
+                            <Image Source="ms-appx:///Assets/praying-hands.png" Margin="0,20" 
+                                       Height="100" Width="100" />
+                            <RichTextBlock>
+                                <Paragraph FontSize="18" TextAlignment="Justify" Margin="0,0,0,5">
+                                    Father in heaven, we thank you for having sent your only Son
+                                            to free us from the slavery of sin. He went the way of the cross
+                                            for our salvation; give us the courage to follow him, being 
+                                            strengthened by his example and his love. We ask this through 
+                                            Christ our Lord. AMEN.
+                                </Paragraph>
+                            </RichTextBlock>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="1st Station">
+                <Grid>
+                    <ScrollViewer>
+                        <StackPanel>
+                            <Image Source="ms-appx:///Assets/Station_1.jpg" Margin="0,-20" 
+                                       Height="250" Width="250" />
+                            <RichTextBlock Margin="0,15,0,5">
+                                <Paragraph FontSize="18" TextAlignment="Center" Margin="0,0,0,20">
+                                    JESUS IS CONDEMNED TO DEATH
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Justify" Margin="0,0,0,20">
+                                    <Bold>Leader</Bold> : We adore you O Christ, and we praise you
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Justify" Margin="0,0,0,20">
+                                    <Bold>All</Bold> : Because by your cross you have redeemed the world
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Justify" Margin="0,0,0,20">
+                                    <Bold>Meditation</Bold> : Jesus went around doing good and now His people 
+                                            condemn him to death for no real good reason. A common criminal
+                                            is valued higher than Christ. Jesus accepts the condemnation
+                                            because he knows it is the will of his Father.
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Justify" Margin="0,0,0,5">
+                                    <Bold>Prayer</Bold> : Lord Jesus, many times we do not receive the recognition
+                                            we expect or rightly deserve. May we be strengthened by what your
+                                            own people did to you: as your followers we should not expect
+                                            a different treatment than you had to undergo yourself. AMEN.
+                                </Paragraph>
+                            </RichTextBlock>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="2nd Station">
+                <Grid>
+                    <ScrollViewer>
+                        <StackPanel>
+                            <Image Source="ms-appx:///Assets/Station_2.jpg" Margin="0,-20" 
+                                       Height="250" Width="250" />
+                            <RichTextBlock Margin="0,30,0,5">
+                                <Paragraph FontSize="18" TextAlignment="Center" Margin="0,0,0,20">
+                                    JESUS TAKES UP THE CROSS
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Justify" Margin="0,0,0,20">
+                                    <Bold>Leader</Bold> : We adore you O Christ, and we praise you
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Justify" Margin="0,0,0,20">
+                                    <Bold>All</Bold> : Because by your cross you have redeemed the world
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Justify" Margin="0,0,0,20">
+                                    <Bold>Meditation</Bold> : Jesus could have asked his Father to send a 
+                                            legion of angels to defend him and to turn the cross away
+                                            from him; he did not do it; he carried His cross to the end,
+                                            not for his own benefit, but for our salvation.
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Justify" Margin="0,0,0,10">
+                                    <Bold>Prayer</Bold> : We thank you, Lord, for accepting the cross so that
+                                            we could bem saved. Help us to accept the hardships and 
+                                            suffering that is needed to improve the lot of our neighbour 
+                                            and of ourselves; may we take up our cross daily and follow
+                                            you. AMEN.
+                                </Paragraph>
+                            </RichTextBlock>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="3rd Station">
+                <Grid>
+                    <ScrollViewer>
+                        <StackPanel>
+                            <Image Source="ms-appx:///Assets/Station_3.jpg" Margin="0,-20" 
+                                       Height="250" Width="250" />
+                            <RichTextBlock Margin="0,15,0,5">
+                                <Paragraph FontSize="18" TextAlignment="Center" Margin="0,0,0,20">
+                                    JESUS FALLS THE FIRST TIME UNDER THE CROSS
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Justify" Margin="0,0,0,20">
+                                    <Bold>Leader</Bold> : We adore you O Christ, and we praise you
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Justify" Margin="0,0,0,20">
+                                    <Bold>All</Bold> : Because by your cross you have redeemed the world
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Justify" Margin="0,0,0,20">
+                                    <Bold>Meditation</Bold> : Jesus falls under the heavy weight of the cross;
+                                            however, he does not remain down but he gets up and continues
+                                            carrying the cross which the Father had given him to carry.
+                                            Christ gives an example for us to follow when we have fallen
+                                            into sin.
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Justify" Margin="0,0,0,5">
+                                    <Bold>Prayer</Bold> : Lord Jesus, we are sinners but we know that you have
+                                            offered us your grace and your help to repent and start afresh.
+                                            Trusting in your strength we will carry on to do the will of
+                                            the Father. AMEN.
+                                </Paragraph>
+                            </RichTextBlock>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="4th Station">
+                <Grid>
+                    <ScrollViewer>
+                        <StackPanel>
+                            <Image Source="ms-appx:///Assets/Station_4.jpg" Margin="0,-20" 
+                                       Height="250" Width="250" />
+                            <RichTextBlock Margin="0,35,0,5">
+                                <Paragraph FontSize="18" TextAlignment="Center" Margin="0,0,0,20">
+                                    JESUS MEETS HIS SORROWFUL MOTHER
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Justify" Margin="0,0,0,20">
+                                    <Bold>Leader</Bold> : We adore you O Christ, and we praise you
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Justify" Margin="0,0,0,20">
+                                    <Bold>All</Bold> : Because by your cross you have redeemed the world
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Justify" Margin="0,0,0,20">
+                                    <Bold>Meditation</Bold> : Jesus is encouraged when he meets his mother; 
+                                            his own disciples had either betrayed, denied or deserted
+                                            him. Mary remained faithful, the only sinless person, a ray
+                                            of hope in his utter loneliness.
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Justify" Margin="0,0,0,5">
+                                    <Bold>Prayer</Bold> : Lord, make us realise that our mere presence can 
+                                            comfort others in their sorrow and in their suffereing. May
+                                            we never shy away from people simply because we feel that we
+                                            cannot help them physically or relieve their suffering. AMEN.
+                                </Paragraph>
+                            </RichTextBlock>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="5th Station">
+                <Grid>
+                    <ScrollViewer>
+                        <StackPanel>
+                            <Image Source="ms-appx:///Assets/Station_5.jpg" Margin="0,-20" 
+                                       Height="250" Width="250" />
+                            <RichTextBlock Margin="0,35,0,5">
+                                <Paragraph FontSize="18" TextAlignment="Center" Margin="0,0,0,20">
+                                    JESUS OF CYRENE HELPS JESUS
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>Leader</Bold> : We adore you O Christ, and we praise you
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>All</Bold> : Because by your Holy Cross you have redeemed the world
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>Meditation</Bold> : Jesus is exhausted and very weak. Simon is forced
+                                            to help. Later he discovered that the person he helped and who
+                                            looked like a condemned criminal was his own Saviour and God. 
+                                            Even now it holds true: whatever we do to the least of our 
+                                            neighbours we do it to Christ.
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,5">
+                                    <Bold>Prayer</Bold> : Lord Jesus Christ, teach us never to judge our neighbour
+                                            according to his outward appearance or according to what others say
+                                            about him. Help us to treat each one as we would treat you. AMEN.
+                                </Paragraph>
+                            </RichTextBlock>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="6th Station">
+                <Grid>
+                    <ScrollViewer>
+                        <StackPanel>
+                            <Image Source="ms-appx:///Assets/Station_6.jpg" Margin="0,-20" 
+                                       Height="250" Width="250" />
+                            <RichTextBlock Margin="0,35,0,5" >
+                                <Paragraph FontSize="18" TextAlignment="Center" Margin="0,0,0,20">
+                                    VERONICA WIPES THE FACE OF JESUS
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>Leader</Bold> : We adore you O Christ, and we praise you
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>All</Bold> : Because by your cross you have redeemed the world
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>Meditation</Bold> : Veronica wanted to give some comfort to Jesus
+                                            and she was rewarded with an imprint of his face on the cloth
+                                            she used. The image of Christ will be printed on our hearts
+                                            if we help and serve others. "Everyone who loves is begotten 
+                                            by God and knows God" (1 John 4, 7).
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,5">
+                                    <Bold>Prayer</Bold> : Lord, increase ur knowledge of you so that in knowing
+                                            you we may be able to show your true face to others and thus
+                                            draw them to you. AMEN.
+                                </Paragraph>
+                            </RichTextBlock>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="7th Station">
+                <Grid>
+                    <ScrollViewer>
+                        <StackPanel>
+                            <Image Source="ms-appx:///Assets/Station_7.jpg" Margin="0,-20" 
+                                       Height="250" Width="250" />
+                            <RichTextBlock Margin="0,20,0,5">
+                                <Paragraph FontSize="18" TextAlignment="Center" Margin="0,0,0,20">
+                                    JESUS FALLS A SECOND TIME
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>Leader</Bold> : We adore you O Christ, and we praise you
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>All</Bold> : Because by your cross you have redeemed the world
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>Meditation</Bold> : Jesus does not give up even though he falls 
+                                            another time under the heavy cross. He perseveres until he 
+                                            has accomplished what God gave him to do, although he is at
+                                            the end of his strength.
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,5">
+                                    <Bold>Prayer</Bold> : Lord, may we never be discouraged by our weakness 
+                                            and repeated failures. Help us to focus our eyes on our goal:
+                                            the cross and the resurrection. May this help us to persevere
+                                            at all times. AMEN
+                                </Paragraph>
+                            </RichTextBlock>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="8th Station">
+                <Grid>
+                    <ScrollViewer>
+                        <StackPanel>
+                            <Image Source="ms-appx:///Assets/Station_8.jpg" Margin="0,-20" 
+                                       Height="250" Width="250" />
+                            <RichTextBlock Margin="0,35,0,5">
+                                <Paragraph FontSize="18" TextAlignment="Center" Margin="0,0,0,20">
+                                    JESUS SPEAKS TO THE WOMEN OF JERUSALEM
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>Leader</Bold> : We adore you O Christ, and we praise you
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>All</Bold> : Because by your cross you have redeemed the world
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>Meditation</Bold> : In his own suffering Jesus is still able to 
+                                            focus on the needs and problems of others. He tries to open 
+                                            the eyes of the women to their own inner state which deserves
+                                            a far more serious punishment than Jesus is undergoing himself.
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,5">
+                                    <Bold>Prayer</Bold> : Lord Jesus, may our church - communities always have an
+                                            open eye for the suffering of the people around them, but may this
+                                            never be an occasion for them to be blind to their own condition.
+                                            May we always be living branches, joined to you, the true vine. AMEN.
+                                </Paragraph>
+                            </RichTextBlock>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="9th Station">
+                <Grid>
+                    <ScrollViewer>
+                        <StackPanel>
+                            <Image Source="ms-appx:///Assets/Station_9.jpg" Margin="0,-50" 
+                                       Height="250" Width="250" />
+                            <RichTextBlock Margin="0,35,0,5">
+                                <Paragraph FontSize="18" TextAlignment="Center" Margin="0,0,0,20">
+                                    JESUS FALLS A THIRD TIME
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>Leader</Bold> : We adore you O Christ, and we praise you
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>All</Bold> : Because by your cross you have redeemed the world
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>Meditation</Bold> : no matter how often we fall into sin, God always
+                                            offers us his mercy and forgiveness and beckons us to continue
+                                            and carry on with the task he gave us. The fruit of perseverance
+                                            is ternal salvation: union with Christ in his glorious resurrection.
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,5">
+                                    <Bold>Prayer</Bold> : Lord, forgive us our sins that made you suffer and die on
+                                            the cross. May we never despair of your mercy and give us the courage
+                                            to start anew after every fall into sin. AMEN.
+                                </Paragraph>
+                            </RichTextBlock>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="10th Station">
+                <Grid>
+                    <ScrollViewer>
+                        <StackPanel>
+                            <Image Source="ms-appx:///Assets/Station_10.jpg" Margin="0,-20" 
+                                       Height="250" Width="250" />
+                            <RichTextBlock Margin="0,35,0,5">
+                                <Paragraph FontSize="18" TextAlignment="Center" Margin="0,0,0,20">
+                                    JESUS IS STRIPPED OF HIS CLOTHES
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>Leader</Bold> : We adore you O Christ, and we praise you
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>All</Bold> : Because by your Holy Cross you have redeemed the world
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>Meditation</Bold> : Prophet Isaiah spoek about Christ when he said:
+                                            "Like a sapling he grew up in front of us, like a root in arid
+                                            ground, without beauty, without majesty, no looks to attract our
+                                            eyes." (Is. 53 : 2). Christ realised that the real value of man
+                                            does not consist in outward appearance nor in the clothes he wears.
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,5">
+                                    <Bold>Prayer</Bold> : Lord, may material possessions or earthly glamour never
+                                            draw us away frm you. Make us realize that our ultimate value 
+                                            consists in our union with you, and make us ready to go and do away
+                                            with all we have in order to follow you. AMEN.
+                                </Paragraph>
+                            </RichTextBlock>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="11th Station">
+                <Grid>
+                    <ScrollViewer>
+                        <StackPanel>
+                            <Image Source="ms-appx:///Assets/Station_11.jpg" Margin="0,-20" 
+                                       Height="250" Width="250" />
+                            <RichTextBlock Margin="0,35,0,5">
+                                <Paragraph FontSize="18" TextAlignment="Center" Margin="0,0,0,20">
+                                    JESUS IS NAILED TO THE CROSS
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>Leader</Bold> : We adore you O Christ, and we praise you
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>All</Bold> : Because by your cross you have redeemed the world
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>Meditation</Bold> : With hands and feet fastened to the wood of 
+                                            the cross, Christ seems powerless. However, through the 
+                                            cross he renewed the world and saved us so that now he is
+                                            able to live in us and use our hands and feet to establish
+                                            God's kingdom more firmly here on earth.
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,5">
+                                    <Bold>Prayer</Bold> : Lord Jesus, be with all those who are prevented 
+                                            by men from doing your work and with those who do not enjoy
+                                            religious freedom. May also their cross conquer the evil 
+                                            surrounding them so that yur reign of peace and loive may be
+                                            within us now and forever. AMEN.
+                                </Paragraph>
+                            </RichTextBlock>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="12th Station">
+                <Grid>
+                    <ScrollViewer>
+                        <StackPanel>
+                            <Image Source="ms-appx:///Assets/Station_12.jpg" Margin="0,-50" 
+                                       Height="250" Width="250" />
+                            <RichTextBlock Margin="0,15,0,5">
+                                <Paragraph FontSize="18" TextAlignment="Center" Margin="0,0,0,20">
+                                    JESUS DIES ON THE CROSS
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>Leader</Bold> : We adore you O Christ, and we praise you
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>All</Bold> : Because by your cross you have redeemed the world
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>Meditation</Bold> : The seed must first fall to the ground and die before
+                                            it can bear fruit. Jesus died and has won the whole world. We now
+                                            live the life he lived, no longer for ourselves but for others. We
+                                            have to die to ourselves in order to be able to rise with Christ.
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,5">
+                                    <Bold>Prayer</Bold> : Lord, make us constantly aware of your love for us that 
+                                            you died for us even though we were sinners. Eliminate from this 
+                                            world all hatred which results in killing, murder and fighting and
+                                            make it turn to a love that builds a new and better world. AMEN.
+                                </Paragraph>
+                            </RichTextBlock>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="13th Station">
+                <Grid>
+                    <ScrollViewer>
+                        <StackPanel>
+                            <Image Source="ms-appx:///Assets/Station_13.jpg" Margin="0,-20" 
+                                       Height="250" Width="250" />
+                            <RichTextBlock Margin="0,35,0,5">
+                                <Paragraph FontSize="18" TextAlignment="Center" Margin="0,0,0,20">
+                                    JESUS IS TAKEN OFF THE CROSS
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>Leader</Bold> : We adore you O Christ, and we praise you
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>All</Bold> : Because by your cross you have redeemed the world
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>Meditation</Bold> : Mary suffered with Jesus until the end. Now she
+                                            receives the body of her dead son in her arms. Mary must have
+                                            had a great faith: she did not lose faith in God in the face of 
+                                            this outward failure. She continued to observe the Lord's 
+                                            command about the great Sabbath and was prepared for thhe final
+                                            embalming on the first day of the week.
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,5">
+                                    <Bold>Prayer</Bold> : Lord, give us the faith we need to see in every cross
+                                            we carry the glory of the resurrection. May we never be discouraged
+                                            no matter how great our sorrow. Help us to stand by and comfort 
+                                            those who stand at the deathbed of their loved ones. AMEN.
+                                </Paragraph>
+                            </RichTextBlock>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="14th Station">
+                <Grid>
+                    <ScrollViewer>
+                        <StackPanel>
+                            <Image Source="ms-appx:///Assets/Station_14.jpg" Margin="0,-20" 
+                                       Height="250" Width="250" />
+                            <RichTextBlock Margin="0,35,0,5">
+                                <Paragraph FontSize="18" TextAlignment="Center" Margin="0,0,0,20">
+                                    JESUS IS LAID IN THE TOMB
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>Leader</Bold> : We adore you O Christ, and we praise you
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>All</Bold> : Because by your cross you have redeemed the world
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    <Bold>Meditation</Bold> : A burial seems to be the end of a person's life.
+                                            It was so up till the death of Jesus. He conquered daeth and
+                                            descended into hell to free the saints who had lived before
+                                            him. Since Jesus' deathwe too hope for a glorious future with
+                                            him in a new world without end.
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,5">
+                                    <Bold>Prayer</Bold> : Lord Jesus, you have  gone before us to prepare the 
+                                            way. May we follow in your footsteps. Comfort the sorrowing 
+                                            people at the tombs of their loved ones with the assurance of 
+                                            a resurrection with you in the house of our Father. AMEN.
+                                </Paragraph>
+                            </RichTextBlock>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </PivotItem>
+            <PivotItem Header="Closing Prayer" >
+                <Grid>
+                    <ScrollViewer>
+                        <StackPanel>
+                            <Image Source="ms-appx:///Assets/praying-hands.png" Margin="0,20" 
+                                       Height="100" Width="100" />
+                            <RichTextBlock>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    Father in Heaven, we thank you for having given us your only
+                                            begotten Son. He has taught us to love our neighbour as he 
+                                            has loved us. Father, help us to follow the example of Christ,
+                                            your Son; may he live in and through us, now and forever. AMEN.
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    Our Father...
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    Hail Mary...
+                                </Paragraph>
+                                <Paragraph FontSize="18" TextAlignment="Left" Margin="0,0,0,20">
+                                    Glory be to the Father...
+                                </Paragraph>
+                            </RichTextBlock>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </PivotItem>
+        </Pivot>
+    </Grid>
+</Page>

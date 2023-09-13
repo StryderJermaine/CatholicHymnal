@@ -1,0 +1,305 @@
+﻿<Page
+    x:Class="CatholicHymnBookUWP.Views.RosaryPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CatholicHymnBookUWP.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <!-- Content -->
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Pivot x:Name="RosaryPivot">
+            <PivotItem x:Name="Joyful" Header="Joyful Mysteries" >
+                <ScrollViewer>
+                    <Grid>
+                        <StackPanel Margin="0,20,0,0">
+                            <RelativePanel>
+                                <Image x:Name="Joyful_1" Source="ms-appx:///Assets/Joyful-1.png" Height="180" Width="180"  />
+                                <RichTextBlock Margin="209,0,20,20" RelativePanel.AlignLeftWith="Joyful_1" Height="167">
+                                    <Paragraph FontSize="24" TextAlignment="Center" Margin="0,0,0,5">
+                                        1.
+                                        <Bold>The Annunciation</Bold> - The angel Gabriel brings word
+                                            from God that Mary is to be the Mother of our Saviour.
+                                    </Paragraph>
+                                    <Paragraph FontSize="24" TextAlignment="Justify" Margin="0,20,0,20">- We pray for oppenness to God's word and inspiration
+                                            and for a readiness to follow his call.
+                                    </Paragraph>
+                                </RichTextBlock>
+                            </RelativePanel>
+                            <RelativePanel Margin="0,30,0,0">
+                                <Image x:Name="Joyful_2" Source="ms-appx:///Assets/Joyful-2.png" Height="180" Width="180"  />
+                                <RichTextBlock Margin="209,0,20,20" RelativePanel.AlignLeftWith="Joyful_2" Height="167">
+                                    <Paragraph FontSize="24" TextAlignment="Center" Margin="0,0,0,5">
+                                        2.
+                                        <Bold>The Visitation</Bold> - Mary helps Elizabeth in her 
+                                            preparations for the birth of John the Baptist.
+                                    </Paragraph>
+                                    <Paragraph FontSize="24" TextAlignment="Justify" Margin="0,20,0,20">- We pray for an open eye for the needs of others.
+                                    </Paragraph>
+                                </RichTextBlock>
+                            </RelativePanel>
+                            <RelativePanel Margin="0,30,0,0">
+                                <Image x:Name="Joyful_3" Source="ms-appx:///Assets/Joyful-3.png" Height="180" Width="180"  />
+                                <RichTextBlock Margin="209,0,20,20" RelativePanel.AlignLeftWith="Joyful_3" Height="167">
+                                    <Paragraph FontSize="24" TextAlignment="Center" Margin="0,0,0,5">
+                                        3.
+                                        <Bold>The Birth of Jesus</Bold> - Jesus is born in very poor 
+                                            circumstances in Bethlehem where people showed no hospitality to Mary and Joseph.
+                                    </Paragraph>
+                                    <Paragraph FontSize="24" TextAlignment="Justify" Margin="0,20,0,20">- We pray for newly born children that they may experience
+                                            the love of their parents and relatives.
+                                    </Paragraph>
+                                </RichTextBlock>
+                            </RelativePanel>
+                            <RelativePanel Margin="0,30,0,0">
+                                <Image x:Name="Joyful_4" Source="ms-appx:///Assets/Joyful-4.png" Height="180" Width="180"  />
+                                <RichTextBlock Margin="195,0,20,20" RelativePanel.AlignLeftWith="Joyful_4" Height="167">
+                                    <Paragraph FontSize="24" TextAlignment="Center" Margin="0,0,0,5">
+                                        4.
+                                        <Bold>The Presentation of Jesus in the Temple</Bold> - Mary and Joseph 
+                                            offer their child to God in accordance with the law of Moses.
+                                    </Paragraph>
+                                    <Paragraph FontSize="24" TextAlignment="Justify" Margin="0,20,0,20">- We pray for vocations and for the young men and women ready
+                                            to dedicate themselves totally to the service of God.
+                                    </Paragraph>
+                                </RichTextBlock>
+                            </RelativePanel>
+                            <RelativePanel Margin="0,30,0,0">
+                                <Image x:Name="Joyful_5" Source="ms-appx:///Assets/Joyful-5.png" Height="180" Width="180"  />
+                                <RichTextBlock Margin="209,0,20,20" RelativePanel.AlignLeftWith="Joyful_5" Height="167">
+                                    <Paragraph FontSize="24" TextAlignment="Center" Margin="0,0,0,5">
+                                        5.
+                                        <Bold>The Finding of Jesus in the Temple</Bold> - Mary and Joseph find 
+                                            Jesus discussing the 'things of his Father' in the temple after they had searched for three days.
+                                    </Paragraph>
+                                    <Paragraph FontSize="24" TextAlignment="Justify" Margin="0,20,0,20">- We pray that parents may constantly have their children's 
+                                            welfare at heart.
+                                    </Paragraph>
+                                </RichTextBlock>
+                            </RelativePanel>
+                        </StackPanel>
+                    </Grid>
+                </ScrollViewer>
+            </PivotItem>
+            <PivotItem x:Name="Sorrowful" Header="Sorrowful Mysteries">
+                <Grid>
+                    <ScrollViewer>
+                        <StackPanel Margin="0,20,0,0">
+                            <RelativePanel>
+                                <Image x:Name="Sorrowful_1" Source="ms-appx:///Assets/Sorrowful-1.png" Height="180" Width="180"  />
+                                <RichTextBlock Margin="209,0,20,20" RelativePanel.AlignLeftWith="Sorrowful_1" Height="167">
+                                    <Paragraph FontSize="24" TextAlignment="Center" Margin="0,0,0,5">
+                                        1.
+                                        <Bold>The Agony of Jesus in the Garden</Bold> - Jesus is afraid to drink
+                                            the chalice which the Father gives him to drink, but he is strengthened by an angel.
+                                    </Paragraph>
+                                    <Paragraph FontSize="24" TextAlignment="Justify" Margin="0,20,0,20">- We pray that we may receive God's strength to face the trial
+                                            of life.
+                                    </Paragraph>
+                                </RichTextBlock>
+                            </RelativePanel>
+                            <RelativePanel Margin="0,30,0,0">
+                                <Image x:Name="Sorrowful_2" Source="ms-appx:///Assets/Sorrowful-2.png" Height="180" Width="180"  />
+                                <RichTextBlock Margin="209,0,20,20" RelativePanel.AlignLeftWith="Sorrowful_2" Height="167">
+                                    <Paragraph FontSize="24" TextAlignment="Center" Margin="0,0,0,5">
+                                        2.
+                                        <Bold>The Scourging of Jesus at the Pillar</Bold> - Even though Pilate 
+                                            recognizes the innocence of Jesus he has him scourged by the soldiers.
+                                    </Paragraph>
+                                    <Paragraph FontSize="24" TextAlignment="Justify" Margin="0,20,0,20">- We pray that we may never hurt our neighbour, neither by word
+                                            nor by deed.
+                                    </Paragraph>
+                                </RichTextBlock>
+                            </RelativePanel>
+                            <RelativePanel Margin="0,30,0,0">
+                                <Image x:Name="Sorrowful_3" Source="ms-appx:///Assets/Sorrowful-3.png" Height="180" Width="180"  />
+                                <RichTextBlock Margin="209,0,20,20" RelativePanel.AlignLeftWith="Sorrowful_3" Height="167">
+                                    <Paragraph FontSize="24" TextAlignment="Center" Margin="0,0,0,5">
+                                        3.
+                                        <Bold>The Crowning of Jesus with a Crown of Thorns</Bold> - Jesus is publicly
+                                            humiliated and insulted by the soldiers who play the fool with him.
+                                    </Paragraph>
+                                    <Paragraph FontSize="24" TextAlignment="Justify" Margin="0,20,0,20">- We pray that we may follow Christ even when this means accepting
+                                            insults and mockery.
+                                    </Paragraph>
+                                </RichTextBlock>
+                            </RelativePanel>
+                            <RelativePanel Margin="0,30,0,0">
+                                <Image x:Name="Sorrowful_4" Source="ms-appx:///Assets/Sorrowful-4.png" Height="180" Width="180"  />
+                                <RichTextBlock Margin="209,0,20,20" RelativePanel.AlignLeftWith="Sorrowful_4" Height="167">
+                                    <Paragraph FontSize="24" TextAlignment="Center" Margin="0,0,0,5">
+                                        4.
+                                        <Bold>Jesus Carries His Cross to Calvary</Bold> - Jesus takes up the cross 
+                                            because he knows it is the will of his father.
+                                    </Paragraph>
+                                    <Paragraph FontSize="24" TextAlignment="Justify" Margin="0,20,0,20">- We pray that we may see our daily problems and hardships a way
+                                            of following in the footsteps of Christ.
+                                    </Paragraph>
+                                </RichTextBlock>
+                            </RelativePanel>
+                            <RelativePanel Margin="0,30,0,0">
+                                <Image x:Name="Sorrowful_5" Source="ms-appx:///Assets/Sorrowful-5.png" Height="180" Width="180"  />
+                                <RichTextBlock Margin="209,0,20,20" RelativePanel.AlignLeftWith="Sorrowful_5" Height="167">
+                                    <Paragraph FontSize="24" TextAlignment="Center" Margin="0,0,0,5">
+                                        5.
+                                        <Bold>Jesus Dies on the Cross</Bold> - Jesus dies after having entrusted his
+                                            followers into the care of Mary, his mother.
+                                    </Paragraph>
+                                    <Paragraph FontSize="24" TextAlignment="Justify" Margin="0,20,0,20">- We pray that we may live and die for the greater honour and glory
+                                            of God.
+                                    </Paragraph>
+                                </RichTextBlock>
+                            </RelativePanel>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </PivotItem>
+            <PivotItem x:Name="Glorious" Header="Glorious Mysteries">
+                <Grid>
+                    <ScrollViewer>
+                        <StackPanel Margin="0,20,0,0">
+                            <RelativePanel>
+                                <Image x:Name="Glorious_1" Source="ms-appx:///Assets/Glorious-1.png" Height="180" Width="180"  />
+                                <RichTextBlock Margin="209,0,20,20" Height="167" RelativePanel.AlignLeftWith="Glorious_1">
+                                    <Paragraph FontSize="24" TextAlignment="Justify" Margin="0,0,0,5">
+                                        1.
+                                        <Bold>The Resurrection</Bold> - Jesus is glorified by the Father and rises
+                                            to a new life.
+                                    </Paragraph>
+                                    <Paragraph FontSize="24" TextAlignment="Justify" Margin="0,20,0,20">- We pray for a greater awareness of the risen Christ in our lives.
+                                    </Paragraph>
+                                </RichTextBlock>
+                            </RelativePanel>
+                            <RelativePanel Margin="0,30,0,0">
+                                <Image x:Name="Glorious_2" Source="ms-appx:///Assets/Glorious-2.png" Height="180" Width="180"  />
+                                <RichTextBlock Margin="209,0,20,20" RelativePanel.AlignLeftWith="Glorious_2" Width="1092">
+                                    <Paragraph FontSize="24" TextAlignment="Justify" Margin="0,0,0,5">
+                                        2.
+                                        <Bold>The Ascension of Jesus into Heaven</Bold> - Jesus is taken away from
+                                            the sight of the apostles, whom he told to prepare themselves for the coming of another Helper.
+                                    </Paragraph>
+                                    <Paragraph FontSize="24" TextAlignment="Justify" Margin="0,20,0,20">- We pray that our church leaders may always faithfully carry on the
+                                            work started by Jesus.
+                                    </Paragraph>
+                                </RichTextBlock>
+                            </RelativePanel>
+                            <RelativePanel Margin="0,30,0,0">
+                                <Image x:Name="Glorious_3" Source="ms-appx:///Assets/Glorious-3.png" Height="180" Width="180"  />
+                                <RichTextBlock Margin="209,0,20,20" RelativePanel.AlignLeftWith="Glorious_3" Height="167">
+                                    <Paragraph FontSize="24" TextAlignment="Center" Margin="0,0,0,5">
+                                        3.
+                                        <Bold>The Descent of the Holy Spirit</Bold> - Mary and the disciples receive the
+                                            Holy Spirit who enables them to spread the good news throughout the world.
+                                    </Paragraph>
+                                    <Paragraph FontSize="24" TextAlignment="Justify" Margin="0,20,0,20">- We pray that we Christians may never be afraid to openly profess our
+                                            faith.
+                                    </Paragraph>
+                                </RichTextBlock>
+                            </RelativePanel>
+                            <RelativePanel Margin="0,30,0,0">
+                                <Image x:Name="Glorious_4" Source="ms-appx:///Assets/Glorious-4.png" Height="180" Width="180"  />
+                                <RichTextBlock Margin="209,0,20,20" RelativePanel.AlignLeftWith="Glorious_4" Height="167">
+                                    <Paragraph FontSize="24" TextAlignment="Center" Margin="0,0,0,5">
+                                        4.
+                                        <Bold>Mary is taken up into Heaven</Bold> - Mary is taken up body and sul into heaven.
+                                    </Paragraph>
+                                    <Paragraph FontSize="24" TextAlignment="Justify" Margin="0,20,0,20">- We pray that our lives may be directed toward our final union with Christ
+                                            in heaven.
+                                    </Paragraph>
+                                </RichTextBlock>
+                            </RelativePanel>
+                            <RelativePanel Margin="0,30,0,0">
+                                <Image x:Name="Glorious_5" Source="ms-appx:///Assets/Glorious-5.png" Height="180" Width="180"  />
+                                <RichTextBlock Margin="209,0,20,20" RelativePanel.AlignLeftWith="Glorious_5">
+                                    <Paragraph FontSize="24" TextAlignment="Center" Margin="0,0,0,5">
+                                        5.
+                                        <Bold>Crowning of Mary in Heaven</Bold> - Mary receives a glorious reward for her complete 
+                                            devotion to God.
+                                    </Paragraph>
+                                    <Paragraph FontSize="24" TextAlignment="Justify" Margin="0,20,0,20">- We pray that the hope of receiving an imperishable crown, may help us to carry
+                                            on in times of hardships.
+                                    </Paragraph>
+                                </RichTextBlock>
+                            </RelativePanel>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </PivotItem>
+            <PivotItem x:Name="Luminous" Header="Luminous Mysteries">
+                <Grid>
+                    <ScrollViewer>
+                        <StackPanel Margin="0,20,0,0">
+                            <RelativePanel>
+                                <Image x:Name="Luminous_1" Source="ms-appx:///Assets/Luminous-1.png" Height="180" Width="180"  />
+                                <RichTextBlock Margin="209,0,20,20" RelativePanel.AlignLeftWith="Luminous_1" Height="167">
+                                    <Paragraph FontSize="24" TextAlignment="Center" Margin="0,0,0,5">
+                                        1.
+                                        <Bold>The Baptism of Jesus</Bold> - While Jesus was baptised by John in the Jordan,
+                                            the Holy Spirit descended upon him in the form of a dove.
+                                    </Paragraph>
+                                    <Paragraph FontSize="24" TextAlignment="Justify" Margin="0,20,0,20">- We pray that all those who are reborn in Baptism may remain faithful to 
+                                            their baptismal promises and allow the Holy Spirit to guide them in life.
+                                    </Paragraph>
+                                </RichTextBlock>
+                            </RelativePanel>
+                            <RelativePanel Margin="0,30,0,0">
+                                <Image x:Name="Luminous_2" Source="ms-appx:///Assets/Luminous-2.png" Height="180" Width="180"  />
+                                <RichTextBlock Margin="209,0,20,20" RelativePanel.AlignLeftWith="Luminous_2" Height="167">
+                                    <Paragraph FontSize="24" TextAlignment="Center" Margin="0,0,0,5">
+                                        2.
+                                        <Bold>The Wedding Feast at Cana</Bold> - During the wedding feast at Cana, Jesus perdormed
+                                            his first miracle: he changed water into wine.
+                                    </Paragraph>
+                                    <Paragraph FontSize="24" TextAlignment="Justify" Margin="0,20,0,20">- We pray that those who are facing problems in life may go to Jesus for help and 
+                                            inspiration.
+                                    </Paragraph>
+                                </RichTextBlock>
+                            </RelativePanel>
+                            <RelativePanel Margin="0,30,0,0">
+                                <Image x:Name="Luminous_3" Source="ms-appx:///Assets/Luminous-3.png" Height="180" Width="180"  />
+                                <RichTextBlock Margin="209,0,20,20" RelativePanel.AlignLeftWith="Luminous_3" Height="167">
+                                    <Paragraph FontSize="24" TextAlignment="Center" Margin="0,0,0,5">
+                                        3.
+                                        <Bold>The Proclamation of the Kingdom</Bold> - Jesus begins his public life with the proclamation:
+                                        <Italic>"the kingdom of God is at hand; repent and believe the Gospel"</Italic>
+                                    </Paragraph>
+                                    <Paragraph FontSize="24" TextAlignment="Justify" Margin="0,20,0,20">- We pray for all those who are called to proclaim the gospel, that they may proclaim it
+                                            failthfully and that the faithful may repent and experience God's power and salvation.
+                                    </Paragraph>
+                                </RichTextBlock>
+                            </RelativePanel>
+                            <RelativePanel Margin="0,30,0,0">
+                                <Image x:Name="Luminous_4" Source="ms-appx:///Assets/Luminous-4.png" Height="180" Width="180"  />
+                                <RichTextBlock Margin="209,0,20,20" RelativePanel.AlignLeftWith="Luminous_4" Height="167">
+                                    <Paragraph FontSize="24" TextAlignment="Center" Margin="0,0,0,5">
+                                        4.
+                                        <Bold>The Transfiguration</Bold> - During the Transfiguration Jesus showed his glory to the Apostles
+                                            Peter, James and John, while God the father said:
+                                        <Italic>"this is my beloved Son, listen to him"</Italic>
+                                    </Paragraph>
+                                    <Paragraph FontSize="24" TextAlignment="Justify" Margin="0,20,0,20">- We pray that God may give all of us the commitment to listen to the Good News proclaimed
+                                            by Jesus and turn away from those transpired by the Evil One.
+                                    </Paragraph>
+                                </RichTextBlock>
+                            </RelativePanel>
+                            <RelativePanel Margin="0,30,0,0">
+                                <Image x:Name="Luminous_5" Source="ms-appx:///Assets/Luminous-5.png" Height="180" Width="180"  />
+                                <RichTextBlock Margin="209,0,20,20" RelativePanel.AlignLeftWith="Luminous_5" Height="167">
+                                    <Paragraph FontSize="24" TextAlignment="Center" Margin="0,0,0,5">
+                                        5.
+                                        <Bold>The Institution of the Eucharist</Bold> - During the Last Supper Jesus gave us the greatest sign 
+                                            of his love, his own Body and Blood, to strengthen us on our journey through life.
+                                    </Paragraph>
+                                    <Paragraph FontSize="24" TextAlignment="Justify" Margin="0,20,0,20">- We pray that all followers of Christ may come to him and eat his Body and drink his blood,
+                                            so that he can strengthen them in all circumstances of life.
+                                    </Paragraph>
+                                </RichTextBlock>
+                            </RelativePanel>
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </PivotItem>
+        </Pivot>
+    </Grid>
+</Page>
